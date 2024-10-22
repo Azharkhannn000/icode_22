@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(38, 53, 87);
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    padding: 10px;
+}
+img{
+    border: 2px solid white;
+}
+.back{
+    background-color: gray;
+    border-radius: 50px;
+    border: none;
+    width: 50px;
+    height: 30px;
+    color: white;
+}
+.dots{
+    background-color: gray;
+    border-radius: 50px;
+    border: none;
+    width: 50px;
+    height: 30px;
+    color: white;
+}
+.one{
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 220px;
+}
+.first, .second, .third{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first{
+    display: flex;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
+}
+.third{
+    display: grid;
+    grid-template-columns: 4fr 4fr 1fr;
+    padding: 10px;
+}
+.insta{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    place-content: center;
+    place-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.fourth{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+.fourth img{
+    width: 150px;
+}
+.fifth{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.fifth img{
+    width: 235px;
+    height: 120px;
+}
+.six img{
+    width: 480px;
+    height: 150px;
+}
+.follow{
+    background-color: rgb(203, 203, 203);
+    border-radius: 30px 0px 0px 30px;
+    border: 1px solid black;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+.message{
+    background-color: rgb(203, 203, 203);
+    border-radius: 0px 30px 30px 0px;
+    border: 1px solid black;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+.strelka1{
+    background-color: rgb(203, 203, 203);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border: none;
+}
+.strelka2{
+    background-color: rgb(203, 203, 203);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border: none;
+}
